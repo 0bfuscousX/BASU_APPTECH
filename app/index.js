@@ -32,15 +32,8 @@ const Home = () => {
                         padding: SIZES.medium
                     }}
                 >
-                    <Welcome
-                    
-                    >
-
+                    <Welcome>
                     </Welcome>
-                    <Popularjobs>
-                    </Popularjobs>
-                    <Nearbyjobs>
-                    </Nearbyjobs>
 
                 </View>    
             </ScrollView>
