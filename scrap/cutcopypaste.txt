@@ -38,3 +38,14 @@ import PopularJobCard from '../../common/cards/popular/PopularJobCard';
   const router = useRouter();
   const isLoading = false;
   const error = false;
+
+
+  
+import moment from 'moment'
+
+const returnDates = () => {
+    const weekArray = [0,1,2,3,4,5,6]
+    const today = new Date()
+    return weekArray.map(week => moment(today).add(week, 'days').calendar().split(' at')[0] )
+}
+weekArray.map(week => array.push({ value: moment(today).add(week, 'days'), day: moment(today).add(week, 'days').calendar().split(' at')[0] }))
